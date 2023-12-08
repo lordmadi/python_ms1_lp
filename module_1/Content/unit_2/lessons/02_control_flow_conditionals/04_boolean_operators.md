@@ -44,8 +44,6 @@ Based on these examples, we can determine the evaluation results on statements t
 | `not False`       | True       |
 
 
-
-
 ## Mixing Comparison & Boolean Operators
 
 Armed with the knowledge we obtained in the previous concept and this concept, we can write more complex statements that combine both comparison and boolean operators.
@@ -68,8 +66,18 @@ print((5 > 3) and (2 > 1) and (3 > 2) or (1 < 0.5)) # True
 
 In this example, we evaluated `5 > 3 and 2 > 1` first, the result is `True`. We then evaluated `3 > 2 or 1 < 0.5`, the result is `True`. Then, evaluating both results with the `and` operator as a conjunction gives us `True`.
 
-> Boolean operators have an order of operations like mathematical operators. Math and comparison operations are evaulated first, then Python evaluates `not`, followed by `and`, and then `or`.
+It's important to keep in mind that boolean operators have an order of operations like mathematical operators. Math and comparison operations are evaulated first, then Python evaluates `not`, followed by `and`, and then `or`.
 
+## Exercise
+
+Evaluate the following expressions and state whether they are `True` or `False`.
+
+- `"hello" == "Hello" and 5 == 5`
+- `5 > 2 and 3.5 < 3`
+- `True and False and False or True`
+- `(True and False) and (False or True)`
+- `10 == "10" and not True or 2 < 10`
+- `15.5 <= 15.55 and 31 == "thirty-one" and not False`
 
 
 
