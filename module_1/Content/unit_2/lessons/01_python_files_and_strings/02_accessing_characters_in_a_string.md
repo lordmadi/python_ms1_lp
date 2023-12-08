@@ -58,3 +58,13 @@ TypeError: 'str' object does not support item assignment
 
 In the next concept, we'll learn some more operations we can perform on a string. 
 
+## Exercise
+
+Evaluate the following statements and state what will be printed on screen.
+
+- `Online[1]`
+- `Calendar[-2]`
+- `Energy Pump[6]`
+- `"$trongP@ssWord"[-7]`
+- `"_"[2]`
+
