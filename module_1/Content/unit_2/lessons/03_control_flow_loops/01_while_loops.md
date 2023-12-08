@@ -61,3 +61,6 @@ Result:
 
 The above piece of code will result in an infinite error as we removed the iteration component `x = x - 1` that was essentially bringing the loop closer to termination with each iteration.
 
+## Exercise 
+
+Create a program that uses a `while` loop to traverse the characters in the string `"Potato"` and print each character.

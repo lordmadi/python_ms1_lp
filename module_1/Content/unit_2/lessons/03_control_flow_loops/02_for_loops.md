@@ -38,3 +38,11 @@ Hello
 ```
 
 The above code iterates over the values starting from 0 to 3 (3 not included) and prints the string `Banana` in each iteration.
+
+> In the `range` function, if you are starting from 0, you can omit it from the code.
+> 
+> i.e: `range(10)` is the same as `range(0,10)`
+
+## Exercise
+
+Write a `for` loop that uses the `range` function to print any string of your choice only for 5 times.
