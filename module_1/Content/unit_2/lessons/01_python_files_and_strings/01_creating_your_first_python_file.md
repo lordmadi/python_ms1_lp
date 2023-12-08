@@ -62,6 +62,3 @@ python script.py
 Voila! The program ran successfully and the message was printed in the terminal.
 
 In the next concept, we'll dive deeper into more string operations.
-
-
-
