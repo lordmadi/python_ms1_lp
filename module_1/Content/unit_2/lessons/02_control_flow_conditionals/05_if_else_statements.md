@@ -69,6 +69,6 @@ In this block of code, the message that will be printed depends on which conditi
 ## Exercise
 
 Create a program that takes in a user passphrase as input and checks the following:
-- If the passphrase length is less than 8 characters, print `Weak.`.
+- If the passphrase length is less than 8 characters, print `Weak`.
 - If the passphrase length is 8 to 12 characters, print `Medium`.
 - If the passphrase length is 12 characters or more, print `Strong`.
