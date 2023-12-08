@@ -19,7 +19,7 @@ Object methods (functions) can be accessed using the `dot` notation, following t
 
 Below, we'll explore three methods that we can use on all strings.
 
-## The `upper` Function
+## The `upper` Method
 
 This method takes a string and returns it in uppercase.
 
@@ -30,7 +30,7 @@ print(fruit.upper()) # PEACH
 print(model.upper()) # AIRBUS
 ```
 
-## The `lower` Function
+## The `lower` Method
 
 This method takes a string and returns it in lowercase.
 
@@ -41,7 +41,7 @@ print(animal.lower()) # cat
 print(app_name.lower()) # cool video editor
 ```
 
-## The `title` function
+## The `title` Method
 
 This method takes a string and returns it in title case. In title case, the first character of each word is capitalized while the rest of the characters are lowercase.
 
