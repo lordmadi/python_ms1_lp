@@ -12,7 +12,7 @@ while (True):
         print("Hello Adam, welcome to the app")
         break
 ```
-This program asks the user to input his name. It keeps looping till a user inputs the string `Adam`. If the input is `Adam`, the loop will exit. If the input is anything different from `Adam`, the loop will re-run again and the input prompt will show up.
+This program asks the user to input his name. It keeps looping till a user inputs the string `Adam`. If the input is `Adam`, the loop will exit. If the input is anything different from `Adam`, the loop will re-run and the input prompt will show up again.
 
 ## The `continue` Statement
 
@@ -28,5 +28,11 @@ for x in range(11):
 This program counts up from 0 to 10. In each iteration, it checks if the number to print is even. If it's even, the loop will skip the execution of the remaining steps (i.e the `print` statement won't execute). Hence, this program only prints odd numbers.
 
 > Remember that `%` is the modulus operator in Python. 
+
+## Exercise
+
+Write a `while` loop that checks if a user enters a number between 1 and 10. Ensure that your code keeps the loop running if the entered number is not in the specified range.
+
+
 
 

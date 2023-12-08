@@ -34,3 +34,12 @@ This table might help illustrate how the above example works more explicitly.
 | 3<sup>rd<sup>                | 2            | 0            |
 | 3<sup>rd<sup>                | 2            | 1            |
 
+## Exercise
+
+Refactor the code below to use `while` loops instead of `for` loops.
+
+```python
+for x in range(3):
+    for y in range(2):
+        print(x, y)
+```
