@@ -78,7 +78,3 @@ Evaluate the following expressions and state whether they are `True` or `False`.
 - `(True and False) and (False or True)`
 - `10 == "10" and not True or 2 < 10`
 - `15.5 <= 15.55 and 31 == "thirty-one" and not False`
-
-
-
-

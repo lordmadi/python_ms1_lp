@@ -32,7 +32,3 @@ This program counts up from 0 to 10. In each iteration, it checks if the number 
 ## Exercise
 
 Write a `while` loop that checks if a user enters a number between 1 and 10. Ensure that your code keeps the loop running if the entered number is not in the specified range.
-
-
-
-
